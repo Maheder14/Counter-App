@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    font-family: Roboto;
+    background-color: black;
+}
+.container{
+    width: 49%;
+    margin: 25vw auto;
+    border: 1px solid white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #288593fa;;
+    padding: 5vw;
+}
+h1{
+    font-size: 5vw;
+    margin-top: 0;
+    color: white;
+}
+.container #myInput{
+    margin-bottom: 3vw;
+    padding: 1vw;
+    border-radius: 8px;
+    font-size: 1.8vw;
+    border: none;
+    box-shadow: 2px 6px 6px 4px rgba(0,0,0,0.2);
+}
+
+Input:active{
+    transform: scale(0.98);
+}
+
+.container Button{
+    width: 13vw;
+    padding: 1.5vw;
+    border-radius: 12px;
+    border: none;
+    box-shadow: 2px 6px 6px 4px rgba(0,0,0,0.2);
+    font-size: 1.5vw;
+}
+.Btn{
+    display: flex;
+    justify-content: space-around;
+}
+Button:active{
+    transform: scale(0.91);
+}
+
+@media only screen and (max-width: 1300px){
+    .container{
+       margin: 14vw auto;
+    }
+}
+@media only screen and (max-width: 950px){
+    .container{
+        width: 72%;
+        margin: 37vw auto;
+        
+    }
+    h1{
+        font-size: 12vw;
+    }
+    .container #myInput{
+        margin-bottom: 10vw;
+        padding: 3vw;
+        font-size: 3.8vw;
+    }
+    .Btn{
+        gap: 3vw;
+    }
+    .container Button{
+        width: 27vw;
+        padding: 3.5vw;
+        font-size: 3.5vw;
+    }
+}
+
+@media only screen and  (max-width: 500px){
+    .container{
+        width: 76%;
+        margin: 52vw auto;
+    }
+    h1{
+        font-size: 10vw;
+    }
+    .container #myInput{
+        margin-bottom: 9vw;
+        padding: 3vw;
+        font-size: 3.8vw;
+    }
+    .container Button{
+        width: 26vw;
+        padding: 3vw;
+        font-size: 3.5vw;
+    }
+    .Btn{
+        gap: 3vw;
+    }
+  
+}
+
+
+    
